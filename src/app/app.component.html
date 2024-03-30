@@ -1,0 +1,10 @@
+<div class="title-cls">
+  Basic Lesson - {{courseTitle}}
+</div>
+<div class="p-b-10">
+  <app-child [inputData]="parent_Message" (eventEmitter)="handleEvent($event)"> </app-child>
+  <br>
+  <br>
+  <br>
+  <span> Acknowledgment from child -- > <strong> {{return_message}} </strong> </span>
+</div>

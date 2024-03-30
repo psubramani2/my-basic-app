@@ -1,0 +1,11 @@
+.title-cls{
+    background-color: blue;
+    color:white;
+    padding: 10px;
+    margin: auto;
+}
+
+.p-b-10 {
+    padding: 10px;
+    border: 1px solid;
+}
