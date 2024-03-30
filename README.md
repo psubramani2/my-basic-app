@@ -1,3 +1,15 @@
+# Git publish command 
+
+ng build --configuration production --base-href "https://github.com/KamalReesu/shopping-app"
+
+$ npx angular-cli-ghpages --dir=dist/knowledge-hub
+
+$env:NODE_OPTIONS="--openssl-legacy-provider"
+
+https://github.com/KamalReesu/KnowledgeHub.git
+
+git remote set-url origin your orgin path
+
 # MyBasicApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
